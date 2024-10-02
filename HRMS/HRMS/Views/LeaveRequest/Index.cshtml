@@ -1,0 +1,55 @@
+﻿@model IEnumerable<HRMS.Models.LeaveRequest>
+
+@{
+    ViewData["Title"] = "Leave Requests";
+}
+<link href="~/css/custom.css" rel="stylesheet" />
+<a href="@Url.Action("Dashboard", "Dashboard")" class="btn btn-success btn-block mb-3">
+    <i class="fa fa-arrow-left"></i> Back to Dashboard
+</a>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Leave Requests</h2>
+                    <p>
+                        <a asp-action="Create" class="btn btn-danger">Create New Leave Request</a>
+                    </p>
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th style="color: black;">Employee</th>
+                                <th style="color: black;">Start Date</th>
+                                <th style="color: black;">End Date</th>
+                                <th style="color: black;">Leave Type</th>
+                                <th style="color: black;">Status</th>
+                                <th style="color: black;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Employee?.FullName</td>
+                                    <td>@item.StartDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@item.EndDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@item.LeaveType</td>
+                                    <td>@item.Status</td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

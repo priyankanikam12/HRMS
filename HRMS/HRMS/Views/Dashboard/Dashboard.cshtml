@@ -1,0 +1,91 @@
+﻿@model HRMS.Models.DashboardViewModel // Assuming you have a ViewModel for the dashboard
+
+@{
+    ViewData["Title"] = "HR Management System Dashboard";
+}
+
+<link href="~/css/dashboard.css" rel="stylesheet" />
+
+<div class="container-fluid">
+    <h1 class="text-center my-4">HR Management System Dashboard</h1>
+
+    <div class="row">
+        <!-- Employee Management Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-primary">
+                <div class="card-header">Employee Management</div>
+                <div class="card-body">
+                    <h5 class="card-title">Total Employees: <span id="totalEmployees">@Model.TotalEmployees</span></h5>
+                    <h5 class="card-title">Active Employees: <span id="activeEmployees">@Model.ActiveEmployees</span></h5>
+                    <h5 class="card-title">Inactive Employees: <span id="inactiveEmployees">@Model.InactiveEmployees</span></h5>
+                    <a href="@Url.Action("Index", "Employee")" class="btn btn-light">Manage Employees</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Leave Management Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-info">
+                <div class="card-header">Leave Management</div>
+                <div class="card-body">
+                    <h5 class="card-title">Pending Requests: <span id="pendingLeaves">@Model.PendingLeaveRequests</span></h5>
+                    <h5 class="card-title">Approved Requests: <span id="approvedLeaves">@Model.ApprovedLeaveRequests</span></h5>
+                    <a href="@Url.Action("Index", "LeaveRequest")" class="btn btn-light">Manage Leaves</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Attendance Tracking Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-success">
+                <div class="card-header">Attendance Tracking</div>
+                <div class="card-body">
+                    <h5 class="card-title">Total Attendance Records: <span id="totalAttendance">@Model.TotalAttendanceRecords</span></h5>
+                    <a href="@Url.Action("Index", "Attendance")" class="btn btn-light">View Attendance</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Payroll Management Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-warning">
+                <div class="card-header">Payroll Management</div>
+                <div class="card-body">
+                    <h5 class="card-title">Total Salaries Processed: <span id="totalSalaries">@Model.TotalSalariesProcessed</span></h5>
+                    <a href="@Url.Action("Index", "Payroll")" class="btn btn-light">Manage Payroll</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- HR Leave Requests Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-danger">
+                <div class="card-header">HR Leave Requests</div>
+                <div class="card-body">
+                    <h5 class="card-title">Total Leave Requests: <span id="totalLeaveRequests">@Model.TotalLeaveRequests</span></h5>
+                    <h5 class="card-title">Pending Approvals: <span id="pendingApprovals">@Model.PendingApprovals</span></h5>
+                    <!-- Redirect to the HR Login page -->
+                    <a href="@Url.Action("Login", "HR")" class="btn btn-light">Approve Leave Requests</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Quick Actions Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-secondary">
+                <div class="card-header">Quick Actions</div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="@Url.Action("Create", "Employee")" class="text-black btn btn-success">Add Employee</a></li>
+                        <li class="list-group-item"><a href="@Url.Action("Index", "LeaveRequest")" class="text-black btn btn-warning">Manage Leave Requests</a></li>
+                        <li class="list-group-item"><a href="@Url.Action("Index", "Attendance")" class="text-black btn btn-info">View Attendance</a></li>
+                        <li class="list-group-item"><a href="@Url.Action("Index", "Payroll")" class="text-black btn btn-danger">Manage Payroll</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

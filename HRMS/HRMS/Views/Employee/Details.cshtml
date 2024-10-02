@@ -1,0 +1,50 @@
+﻿@model HRMS.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<!-- Link to the custom CSS file -->
+<link href="~/css/custom.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Employee Details</h2>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">First Name</dt>
+                        <dd class="col-sm-8">@Model.FirstName</dd>
+
+                        <dt class="col-sm-4">Last Name</dt>
+                        <dd class="col-sm-8">@Model.LastName</dd>
+
+                        <dt class="col-sm-4">Email</dt>
+                        <dd class="col-sm-8">@Model.Email</dd>
+
+                        <dt class="col-sm-4">Phone Number</dt>
+                        <dd class="col-sm-8">@Model.PhoneNumber</dd>
+
+                        <dt class="col-sm-4">Designation</dt>
+                        <dd class="col-sm-8">@Model.Designation</dd>
+
+                        <dt class="col-sm-4">Date of Joining</dt>
+                        <dd class="col-sm-8">@Model.DateOfJoining.ToString("yyyy-MM-dd")</dd>
+
+                        <dt class="col-sm-4">Salary</dt>
+                        <dd class="col-sm-8">@Model.Salary.ToString("C")</dd>
+
+                        <dt class="col-sm-4">Active Status</dt>
+                        <dd class="col-sm-8">@Model.IsActive == true ? "Active" : "Inactive"</dd>
+                    </dl>
+                    <hr />
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

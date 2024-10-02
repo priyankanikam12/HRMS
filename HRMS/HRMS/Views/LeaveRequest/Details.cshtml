@@ -1,0 +1,39 @@
+﻿@model HRMS.Models.LeaveRequest
+
+@{
+    ViewData["Title"] = "Leave Request Details";
+}
+
+<!-- Link to the custom CSS file -->
+<link href="~/css/custom.css" rel="stylesheet" />
+
+<div class="container">
+    <h2>Leave Request Details</h2>
+    <div class="card">
+        <div class="card-header">
+            <h4>Leave Request Information</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Employee</dt>
+                <dd class="col-sm-8">@Model.Employee?.FullName</dd>
+
+                <dt class="col-sm-4">Start Date</dt>
+                <dd class="col-sm-8">@Model.StartDate.ToString("yyyy-MM-dd")</dd>
+
+                <dt class="col-sm-4">End Date</dt>
+                <dd class="col-sm-8">@Model.EndDate.ToString("yyyy-MM-dd")</dd>
+
+                <dt class="col-sm-4">Leave Type</dt>
+                <dd class="col-sm-8">@Model.LeaveType</dd>
+
+                <dt class="col-sm-4">Status</dt>
+                <dd class="col-sm-8">@Model.Status</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-right">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary">Back</a>
+        </div>
+    </div>
+</div>

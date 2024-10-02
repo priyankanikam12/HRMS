@@ -1,0 +1,86 @@
+﻿@model IEnumerable<LeaveRequest>
+<link href="~/css/custom.css" rel="stylesheet" />
+
+<h2>HR Dashboard</h2>
+<a asp-action="Logout" class="btn btn-danger mb-3">Logout</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="color: black;">Employee</th>
+            <th style="color: black;">Start Date</th>
+            <th style="color: black;">End Date</th>
+            <th style="color: black;">Status</th>
+            <th style="color: black;">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.Employee.FullName</td>
+                <td>@request.StartDate.ToShortDateString()</td>
+                <td>@request.EndDate.ToShortDateString()</td>
+                <td>
+                    @if (request.Status == "Pending")
+                    {
+                        <span class="btn btn-danger">@request.Status</span>
+                    }
+                    else
+                    {
+                        <span class="btn btn-secondary">@request.Status</span>
+                    }
+                </td>
+                <td>
+                    @if (request.Status == "Pending")
+                    {
+                        <form method="post" asp-action="UpdateStatus" asp-route-id="@request.Id" class="d-inline">
+                            <div class="input-group">
+                                <select name="status" class="form-control" required>
+                                    <option value="">Select Action</option>
+                                    <option value="Approved">Approve</option>
+                                    <option value="Rejected">Reject</option>
+                                </select>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <span class="badge badge-secondary">@request.Status</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+            body  {
+            background-color: #f8f9fa; /* Light gray background */
+
+        }
+
+        table {
+        width: 100%; /* Full width table */
+        margin-top: 20px; /* Spacing above the table */
+    }
+
+    th, td {
+        text-align: center; /* Center-align text in table cells */
+    }
+
+    .btn {
+        margin: 0 5px; /* Margin between buttons */
+    }
+
+    .input-group {
+        display: flex; /* Ensure input group elements align correctly */
+    }
+
+        .input-group .form-control {
+            margin-right: 5px; /* Space between select and button */
+        }
+</style>

@@ -1,0 +1,62 @@
+﻿@model HRMS.Models.LeaveRequest
+
+@{
+    ViewData["Title"] = "Create Leave Request";
+}
+<link href="~/css/custom.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Create Leave Request</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" id="createLeaveRequestForm">
+                        <div class="form-group">
+                            <label asp-for="EmployeeId" class="control-label">Employee Name</label>
+                            <select asp-for="EmployeeId" class="form-control" asp-items="@(new SelectList(ViewBag.Employees, "Id", "FullName"))">
+                                <option value="">Select Employee</option>
+                            </select>
+                            <span asp-validation-for="EmployeeId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="StartDate" class="control-label">Start Date</label>
+                            <input asp-for="StartDate" class="form-control" type="date" />
+                            <span asp-validation-for="StartDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="EndDate" class="control-label">End Date</label>
+                            <input asp-for="EndDate" class="form-control" type="date" />
+                            <span asp-validation-for="EndDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="LeaveType" class="control-label">Leave Type</label>
+                            <select asp-for="LeaveType" class="form-control" asp-items="@(new SelectList(ViewBag.LeaveTypes, "Name", "Name"))">
+                                <option value="">Select Leave Type</option>
+                            </select>
+                            <span asp-validation-for="LeaveType" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Status" class="control-label">Status</label>
+                            <input asp-for="Status" class="form-control" value="Pending" readonly />
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Create</button>
+                        <a asp-action="Index" class="btn btn-secondary">Back</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
