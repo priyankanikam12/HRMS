@@ -1,0 +1,678 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HRMS_Proj\\HRMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\hrloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\hrloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\leaverequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\leaverequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\payroll\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\payroll\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\payroll\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\payroll\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\payroll\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\payroll\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\leaverequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\leaverequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\hr\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\hr\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\payroll\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\payroll\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\controllers\\payrollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\payroll\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\payroll\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\attendance\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\attendance\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\attendance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\leaverequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\leaverequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\attendance\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\attendance\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\hr\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\hr\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\leaverequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\leaverequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\views\\leaverequest\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\views\\leaverequest\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\models\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\models\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|d:\\hrms_proj\\hrms\\hrms\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F73F82C-13D4-4F8A-A96D-785E79A140E4}|HRMS\\HRMS.csproj|solutionrelative:hrms\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:26:34.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\Employee.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\Employee.cs",
+              "RelativeToolTip": "HRMS\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:38:38.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HRLoginViewModel.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\HRLoginViewModel.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\HRLoginViewModel.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\HRLoginViewModel.cs",
+              "RelativeToolTip": "HRMS\\Models\\HRLoginViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:06:10.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\LeaveRequest\\Create.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Create.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\LeaveRequest\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:15:39.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Attendance\\Create.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Create.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Attendance\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T11:56:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Payroll\\Create.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Create.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Payroll\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:52:53.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Payroll\\Delete.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Delete.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Payroll\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:55:16.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Payroll\\Index.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Index.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Payroll\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:51:36.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:35:27.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Attendance\\Index.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:07:10.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\LeaveRequest\\Index.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Index.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\LeaveRequest\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T08:16:48.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\HR\\Login.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\HR\\Login.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\HR\\Login.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\HR\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T09:06:56.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Dashboard\\Dashboard.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Dashboard\\Dashboard.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFQAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T09:20:21.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Details.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Payroll\\Details.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Details.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Payroll\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:56:25.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Payroll\\Edit.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Payroll\\Edit.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Payroll\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:54:53.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PayrollController.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\PayrollController.cs",
+              "RelativeDocumentMoniker": "HRMS\\Controllers\\PayrollController.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\PayrollController.cs",
+              "RelativeToolTip": "HRMS\\Controllers\\PayrollController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T10:50:16.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payroll.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\Payroll.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\Payroll.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\Payroll.cs",
+              "RelativeToolTip": "HRMS\\Models\\Payroll.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T10:45:36.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HRMS\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HRMS\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:21:31.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HRController.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\HRController.cs",
+              "RelativeDocumentMoniker": "HRMS\\Controllers\\HRController.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\HRController.cs",
+              "RelativeToolTip": "HRMS\\Controllers\\HRController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:08:22.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Details.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Attendance\\Details.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Details.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Attendance\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:09:56.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "HRMS\\Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "HRMS\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAiwIwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T10:03:11.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Attendance\\Edit.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Edit.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Attendance\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:07:30.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LeaveRequestController.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\LeaveRequestController.cs",
+              "RelativeDocumentMoniker": "HRMS\\Controllers\\LeaveRequestController.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Controllers\\LeaveRequestController.cs",
+              "RelativeToolTip": "HRMS\\Controllers\\LeaveRequestController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T08:15:10.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\LeaveRequest\\Edit.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Edit.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\LeaveRequest\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T08:17:18.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LeaveRequest.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\LeaveRequest.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\LeaveRequest.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\LeaveRequest.cs",
+              "RelativeToolTip": "HRMS\\Models\\LeaveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T08:14:20.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Attendance\\Delete.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Attendance\\Delete.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Attendance\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T10:09:17.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\Attendance.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\Attendance.cs",
+              "RelativeToolTip": "HRMS\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:20:06.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\HR\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\HR\\Dashboard.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\HR\\Dashboard.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\HR\\Dashboard.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T09:10:20.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Program.cs",
+              "RelativeDocumentMoniker": "HRMS\\Program.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Program.cs",
+              "RelativeToolTip": "HRMS\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T09:29:29.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\DashboardController.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\DashboardController.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\DashboardController.cs",
+              "RelativeToolTip": "HRMS\\Models\\DashboardController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:53:13.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "HRMS\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:48:16.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\Dashboard.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\Dashboard.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\Dashboard.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T07:51:47.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\appsettings.json",
+              "RelativeDocumentMoniker": "HRMS\\appsettings.json",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\appsettings.json",
+              "RelativeToolTip": "HRMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T08:57:45.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Details.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\LeaveRequest\\Details.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Details.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\LeaveRequest\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T08:17:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HRMS\\Views\\LeaveRequest\\Delete.cshtml",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Views\\LeaveRequest\\Delete.cshtml",
+              "RelativeToolTip": "HRMS\\Views\\LeaveRequest\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T08:17:34.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HrmsContext.cs",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\HrmsContext.cs",
+              "RelativeDocumentMoniker": "HRMS\\Models\\HrmsContext.cs",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\Models\\HrmsContext.cs",
+              "RelativeToolTip": "HRMS\\Models\\HrmsContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:18:55.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "custom.css",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "HRMS\\wwwroot\\css\\custom.css",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "HRMS\\wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:50:08.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "D:\\HRMS_Proj\\HRMS\\HRMS\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "HRMS\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "D:\\HRMS_Proj\\HRMS\\HRMS\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "HRMS\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-02T07:50:23.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

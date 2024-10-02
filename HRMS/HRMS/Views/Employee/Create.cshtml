@@ -1,0 +1,91 @@
+﻿@model HRMS.Models.Employee
+
+@{
+    ViewData["Title"] = "Create Employee";
+}
+<link href="~/css/custom.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Create New Employee</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" id="createEmployeeForm">
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="control-label">First Name</label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label">Last Name</label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label">Email</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PhoneNumber" class="control-label">Phone Number</label>
+                            <input asp-for="PhoneNumber" class="form-control" id="PhoneNumber" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Designation" class="control-label"></label>
+                            <input asp-for="Designation" class="form-control" />
+                            <span asp-validation-for="Designation" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DateOfJoining" class="control-label">Date Of Joining</label>
+                            <input asp-for="DateOfJoining" class="form-control" type="date" />
+                            <span asp-validation-for="DateOfJoining" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Salary" class="control-label"></label>
+                            <input asp-for="Salary" class="form-control" />
+                            <span asp-validation-for="Salary" class="text-danger"></span>
+                        </div>
+
+                        <!-- Handling Nullable Boolean IsActive -->
+                        <div class="form-group form-check">
+                            <input asp-for="IsActive" class="form-check-input" type="checkbox"
+                                   value="true"
+                                   checked="@Model.IsActive == true" />
+                            <label asp-for="IsActive" class="form-check-label"></label>
+                            <span asp-validation-for="IsActive" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function() {
+
+            // Live validation for phone number
+            $('#PhoneNumber').on('input', function() {
+                var phoneNumber = $(this).val();
+                var pattern = /^\d{0,10}$/; // Allow up to 10 digits only
+
+                if (!pattern.test(phoneNumber)) {
+                    $(this).next('.text-danger').text('Phone number must be exactly 10 digits.'); // Set custom error message
+                } else if (phoneNumber.length !== 10) {
+                    $(this).next('.text-danger').text('Phone number must be exactly 10 digits.'); // Set custom error message
+                } else {
+                    $(this).next('.text-danger').text(''); // Clear error message
+                }
+            });
+        });
+    </script>
+}

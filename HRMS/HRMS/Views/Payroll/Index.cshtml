@@ -1,0 +1,52 @@
+﻿@model IEnumerable<HRMS.Models.Payroll>
+
+@{
+    ViewData["Title"] = "Payroll Index";
+}
+<a href="@Url.Action("Dashboard", "Dashboard")" class="btn btn-success btn-block mb-3">
+    <i class="fa fa-arrow-left"></i> Back to Dashboard
+</a>
+<link href="~/css/custom.css" rel="stylesheet" />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Payroll List</h2>
+                    <a asp-action="Create" class="btn btn-danger mb-3 float-right">Create New Payroll</a>
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th style="color: black;">Employee</th>
+                                <th style="color: black;">Payroll Date</th>
+                                <th style="color: black;">Basic Salary</th>
+                                <th style="color: black;">Bonus</th>
+                                <th style="color: black;">Deductions</th>
+                                <th style="color: black;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var payroll in Model)
+                            {
+                                <tr>
+                                    <td>@payroll.Employee?.FullName</td>
+                                    <td>@payroll.PayrollDate.ToShortDateString()</td>
+                                    <td>@payroll.BasicSalary</td>
+                                    <td>@payroll.Bonus</td>
+                                    <td>@payroll.Deductions</td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@payroll.Id" class="btn btn-warning btn-sm">Edit</a>
+                                        <a asp-action="Details" asp-route-id="@payroll.Id" class="btn btn-info btn-sm">Details</a>
+                                        <a asp-action="Delete" asp-route-id="@payroll.Id" class="btn btn-danger btn-sm">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<HRMS.Models.Attendance>
+
+@{
+    ViewData["Title"] = "Attendance List";
+}
+<link href="~/css/custom.css" rel="stylesheet" />
+<a href="@Url.Action("Dashboard", "Dashboard")" class="btn btn-success btn-block mb-3">
+    <i class="fa fa-arrow-left"></i> Back to Dashboard
+</a>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Attendance List</h2>
+                    <p>
+                        <a asp-action="Create" class="btn btn-danger">Add Attendance</a>
+                    </p>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered mt-3">
+                        <thead>
+                            <tr>
+                                <th style="color: black;">Employee</th>
+                                <th style="color: black;">Date</th>
+                                <th style="color: black;">Check-In Time</th>
+                                <th style="color: black;">Check-Out Time</th>
+                                <th style="color: black;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var attendance in Model)
+                            {
+                                <tr>
+                                    <td>@attendance.Employee?.FullName</td>
+                                    <td>@attendance.Date.ToShortDateString()</td>
+                                    <td>@attendance.CheckInTime?.ToString(@"hh\:mm")</td>
+                                    <td>@attendance.CheckOutTime?.ToString(@"hh\:mm")</td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id="@attendance.Id" class="btn btn-info">Details</a>
+                                        <a asp-action="Edit" asp-route-id="@attendance.Id" class="btn btn-warning">Edit</a>
+                                        <a asp-action="Delete" asp-route-id="@attendance.Id" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+﻿@model HRMS.Models.Attendance
+
+@{
+    ViewData["Title"] = "Create Attendance";
+}
+<link href="~/css/custom.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Create New Attendance</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="form-group">
+                            <label asp-for="EmployeeId" class="control-label">Employee Name</label>
+                            <select asp-for="EmployeeId" class="form-control" asp-items="@(new SelectList(ViewBag.Employees, "Id", "FullName"))">
+                                <option value="">Select Employee</option>
+                            </select>
+                            <span asp-validation-for="EmployeeId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Date" class="control-label"></label>
+                            <input asp-for="Date" class="form-control" type="date" />
+                            <span asp-validation-for="Date" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CheckInTime" class="control-label"></label>
+                            <input asp-for="CheckInTime" class="form-control" type="time" />
+                            <span asp-validation-for="CheckInTime" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CheckOutTime" class="control-label"></label>
+                            <input asp-for="CheckOutTime" class="form-control" type="time" />
+                            <span asp-validation-for="CheckOutTime" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

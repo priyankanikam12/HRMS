@@ -1,0 +1,38 @@
+﻿@model HRMS.Models.Payroll
+
+@{
+    ViewData["Title"] = "Delete Payroll";
+}
+<link href="~/css/custom.css" rel="stylesheet" />
+<h2>Delete Payroll</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h4>Are you sure you want to delete this payroll record?</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Employee</dt>
+            <dd class="col-sm-9">@Model.Employee?.FullName</dd>
+
+            <dt class="col-sm-3">Payroll Date</dt>
+            <dd class="col-sm-9">@Model.PayrollDate.ToShortDateString()</dd>
+
+            <dt class="col-sm-3">Basic Salary</dt>
+            <dd class="col-sm-9">@Model.BasicSalary</dd>
+
+            <dt class="col-sm-3">Bonus</dt>
+            <dd class="col-sm-9">@Model.Bonus</dd>
+
+            <dt class="col-sm-3">Deductions</dt>
+            <dd class="col-sm-9">@Model.Deductions</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

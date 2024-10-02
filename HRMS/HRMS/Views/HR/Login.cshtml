@@ -1,0 +1,89 @@
+﻿@model HRLoginViewModel
+<a href="@Url.Action("Dashboard", "Dashboard")" class="btn btn-success btn-block mb-3">
+    <i class="fa fa-arrow-left"></i> Back to Dashboard
+</a>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header text-center bg-primary text-white">
+                    <h2>HR Login</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Login" method="post">
+                        <div class="form-group">
+                            <label asp-for="Username" class="font-weight-bold"></label>
+                            <input asp-for="Username" class="form-control" placeholder="Enter Username" required />
+                        </div>
+                        <div class="form-group position-relative">
+                            <label asp-for="Password" class="font-weight-bold"></label>
+                            <input asp-for="Password" type="password" class="form-control" placeholder="Enter Password" required id="passwordInput" />
+                            <span id="togglePassword" class="position-absolute" style="right: 15px; top: 50%; transform: translateY(-5%); cursor: pointer;">
+                                <i class="fa fa-eye" id="eyeIcon"></i>
+                            </span>
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </form>
+
+                    @if (ViewData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger mt-3">@ViewData["ErrorMessage"]</div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Light gray background */
+        font-family: Arial, sans-serif; /* Change font for better readability */
+    }
+
+    .card {
+        border-radius: 10px; /* Rounded corners for card */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        border: none; /* Remove border */
+    }
+
+    .card-header {
+        border-top-left-radius: 10px; /* Rounded corners for the header */
+        border-top-right-radius: 10px; /* Rounded corners for the header */
+    }
+
+    .btn {
+        transition: background-color 0.3s, transform 0.2s; /* Transition for button effects */
+    }
+
+        .btn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: translateY(-1px); /* Lift effect on hover */
+        }
+
+    .alert {
+        border-radius: 5px; /* Rounded corners for alert box */
+    }
+</style>
+
+<!-- Include Font Awesome for Eye Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script>
+    document.getElementById("togglePassword").addEventListener("click", function () {
+        const passwordInput = document.getElementById("passwordInput");
+        const eyeIcon = document.getElementById("eyeIcon");
+
+        // Toggle the password visibility
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            eyeIcon.classList.remove("fa-eye");
+            eyeIcon.classList.add("fa-eye-slash");
+        } else {
+            passwordInput.type = "password";
+            eyeIcon.classList.remove("fa-eye-slash");
+            eyeIcon.classList.add("fa-eye");
+        }
+    });
+</script>
